@@ -51,9 +51,7 @@ const getDistance = (x1: number, y1: number, x2: number, y2: number) => {
 
 // TODO: Speed needs work xD
 let speed =
-  canvas.height > canvas.width
-    ? (canvas.height - canvas.width) / 100
-    : (canvas.width - canvas.height) / 100;
+  canvas.height > canvas.width ? canvas.height / 100 : canvas.width / 100;
 
 class Circle {
   x: number;

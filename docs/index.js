@@ -43,9 +43,7 @@ var getDistance = function (x1, y1, x2, y2) {
 };
 // * CLasses
 // TODO: Speed needs work xD
-var speed = canvas.height > canvas.width
-    ? (canvas.height - canvas.width) / 100
-    : (canvas.width - canvas.height) / 100;
+var speed = canvas.height > canvas.width ? canvas.height / 100 : canvas.width / 100;
 var Circle = (function () {
     function Circle(x, y, r, i) {
         this.x = x;
